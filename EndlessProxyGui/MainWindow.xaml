@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EndlessProxyGui"
         mc:Ignorable="d"
-        Title="Endless Proxy" Height="350" Width="600">
+        Title="Endless Proxy" Height="350" Width="600" Initialized="Window_Initialized">
     <TabControl Grid.Row="0" Padding="0">
         <TabItem Header="World">
             <Grid>

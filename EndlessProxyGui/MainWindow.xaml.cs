@@ -23,6 +23,7 @@ namespace EndlessProxyGui
     {
 
         public DataTable Log;
+        private EndlessProxy.Proxy proxy;
 
         public MainWindow()
         {
@@ -44,6 +45,12 @@ namespace EndlessProxyGui
             }
 
             ProxyLog.ItemsSource = Log.DefaultView;
+        }
+
+        private async void Window_Initialized(object sender, EventArgs e)
+        {
+            proxy = new EndlessProxy.Proxy();
+            await proxy.AcceptConnection();
         }
     }
 }

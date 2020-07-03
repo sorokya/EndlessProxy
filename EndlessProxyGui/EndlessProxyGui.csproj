@@ -96,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EndlessProxy\EndlessProxy.csproj">
-      <Project>{44a459bd-5784-4fd7-ae68-61ec03197d03}</Project>
+      <Project>{168fca8d-0f10-47cc-a10b-11c565c6103f}</Project>
       <Name>EndlessProxy</Name>
     </ProjectReference>
   </ItemGroup>

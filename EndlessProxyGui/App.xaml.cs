@@ -13,5 +13,6 @@ namespace EndlessProxyGui
     /// </summary>
     public partial class App : Application
     {
+        public string foo;
     }
 }

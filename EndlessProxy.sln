@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndlessProxy", "EndlessProxy\EndlessProxy.csproj", "{44A459BD-5784-4FD7-AE68-61EC03197D03}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndlessProxyTests", "EndlessProxyTests\EndlessProxyTests.csproj", "{3D09DB70-780D-476B-83B6-417E9961059C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndlessProxyGui", "EndlessProxyGui\EndlessProxyGui.csproj", "{EE1161C7-D0BD-49F1-8FE5-54EF59CB8AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndlessProxy", "EndlessProxy\EndlessProxy.csproj", "{168FCA8D-0F10-47CC-A10B-11C565C6103F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndlessProxyTests", "EndlessProxyTests\EndlessProxyTests.csproj", "{309287C0-DBC4-455A-8037-7DFF3E3216F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndlessProxyCli", "EndlessProxyCli\EndlessProxyCli.csproj", "{1790293C-F517-4803-A0C2-6DD9DB6C9B36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{44A459BD-5784-4FD7-AE68-61EC03197D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44A459BD-5784-4FD7-AE68-61EC03197D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44A459BD-5784-4FD7-AE68-61EC03197D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44A459BD-5784-4FD7-AE68-61EC03197D03}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D09DB70-780D-476B-83B6-417E9961059C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D09DB70-780D-476B-83B6-417E9961059C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D09DB70-780D-476B-83B6-417E9961059C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D09DB70-780D-476B-83B6-417E9961059C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EE1161C7-D0BD-49F1-8FE5-54EF59CB8AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EE1161C7-D0BD-49F1-8FE5-54EF59CB8AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE1161C7-D0BD-49F1-8FE5-54EF59CB8AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE1161C7-D0BD-49F1-8FE5-54EF59CB8AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168FCA8D-0F10-47CC-A10B-11C565C6103F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168FCA8D-0F10-47CC-A10B-11C565C6103F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168FCA8D-0F10-47CC-A10B-11C565C6103F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168FCA8D-0F10-47CC-A10B-11C565C6103F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{309287C0-DBC4-455A-8037-7DFF3E3216F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{309287C0-DBC4-455A-8037-7DFF3E3216F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{309287C0-DBC4-455A-8037-7DFF3E3216F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{309287C0-DBC4-455A-8037-7DFF3E3216F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1790293C-F517-4803-A0C2-6DD9DB6C9B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1790293C-F517-4803-A0C2-6DD9DB6C9B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1790293C-F517-4803-A0C2-6DD9DB6C9B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1790293C-F517-4803-A0C2-6DD9DB6C9B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
